@@ -1,0 +1,25 @@
+@import "../sass/base/reset";
+@import "../sass/variables/colori";
+@import "../sass/variables/font";
+@import "../sass/components/bottoni";
+@import "../sass/components/spaziature";
+@import "../sass/abstract/mixins";
+@import "../sass/base/animazioni";
+@import "../sass/layout/header";
+
+body {
+    font-size: $szBody;
+}
+
+header {
+    background-color: $bg_hero;
+    color: $coloreTesto;
+}
+
+.logo {
+    @include logoSz
+}
+
+h1 {
+    @include title-big
+}

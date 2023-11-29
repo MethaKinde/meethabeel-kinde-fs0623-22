@@ -1,0 +1,10 @@
+@mixin title-big{
+    font-size: $szTitolo;
+    color: $coloreTitolo;
+    font-weight: bold;
+}
+
+@mixin logoSz {
+    width: 80px;
+    height: 64px;
+}
